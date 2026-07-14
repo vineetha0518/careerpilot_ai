@@ -1,0 +1,21 @@
+[theme]
+base = "dark"
+primaryColor = "#6366F1"
+backgroundColor = "#0B1120"
+secondaryBackgroundColor = "#161F32"
+textColor = "#F1F5F9"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+
+[client]
+# We build a fully custom sidebar nav in app.py (styled radio buttons),
+# so the default auto-generated pages/ navigation widget must be hidden
+# to avoid a duplicate, unstyled menu appearing above it.
+showSidebarNavigation = false
+
+[browser]
+gatherUsageStats = false
